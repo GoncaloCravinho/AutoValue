@@ -1,39 +1,78 @@
 <mxfile host="app.diagrams.net" pages="4">
   <diagram name="Home - Desktop" id="88vghx7LZbfdSBwJ4VzV">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="920" dy="1325" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="kNVgp_l-MXVuzM301rVZ-1" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.window;align=left;verticalAlign=top;spacingLeft=8;strokeColor2=#008cff;strokeColor3=#c4c4c4;fontColor=#666666;mainText=;fontSize=17;labelBackgroundColor=none;whiteSpace=wrap;" value="&lt;span style=&quot;caret-color: rgb(255, 255, 255); font-size: medium; color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;Home - Desktop&lt;/span&gt;" vertex="1">
-          <mxGeometry height="625" width="880" x="50" y="110" as="geometry" />
+          <mxGeometry height="1180" width="880" x="50" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="kNVgp_l-MXVuzM301rVZ-2" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=none;mainText=" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;AutoValue &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Home &amp;nbsp; &amp;nbsp; Estimate &amp;nbsp; &amp;nbsp; Market Insights &amp;nbsp; &amp;nbsp; Feature Importance &amp;nbsp; &amp;nbsp; About&lt;/font&gt;" vertex="1">
+        <mxCell id="kNVgp_l-MXVuzM301rVZ-2" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=none;mainText=" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;AutoValue &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Home &amp;nbsp; &amp;nbsp; Estimate &amp;nbsp; &amp;nbsp; Marketplace &amp;nbsp; &amp;nbsp; Market Insights &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Login&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="840" x="70" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="kNVgp_l-MXVuzM301rVZ-10" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=none;mainText=" value="&lt;pre dir=&quot;ltr&quot; style=&quot;caret-color: rgb(255, 255, 255);&quot;&gt;&lt;code style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;KNOW WHAT YOUR CAR IS WORTH  &lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;" vertex="1">
-          <mxGeometry height="30" width="290" x="345" y="310" as="geometry" />
+        <mxCell id="kNVgp_l-MXVuzM301rVZ-10" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=none;mainText=" value="&lt;pre dir=&quot;ltr&quot; style=&quot;caret-color: rgb(255, 255, 255);&quot;&gt;&lt;code style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;DISCOVER AUTOVALUE&lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="30" width="205" x="387.5" y="250" as="geometry" />
         </mxCell>
-        <mxCell id="kNVgp_l-MXVuzM301rVZ-11" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=left;html=1;shape=mxgraph.mockup.text.textBox;fontColor=light-dark(#FFFFFF,#FFFFFF);align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=none;mainText=" value="Estimate the market value of your used car using Machine Learning" vertex="1">
-          <mxGeometry height="100" width="520" x="230" y="360" as="geometry" />
+        <mxCell id="kNVgp_l-MXVuzM301rVZ-11" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=left;html=1;shape=mxgraph.mockup.text.textBox;fontColor=light-dark(#FFFFFF,#FFFFFF);align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=none;mainText=" value="Estimate your vehicle&#39;s market value, explore cars listed by other users and discover insights about vehicle prices" vertex="1">
+          <mxGeometry height="100" width="440" x="270" y="290" as="geometry" />
         </mxCell>
-        <mxCell id="kNVgp_l-MXVuzM301rVZ-12" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#314354;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#647687;whiteSpace=wrap;" value="&lt;pre dir=&quot;ltr&quot; style=&quot;font-weight: 400; caret-color: rgb(255, 255, 255); color: rgb(255, 255, 255);&quot;&gt;&lt;code&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Estimate Your Car →&lt;/font&gt; &lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;" vertex="1">
-          <mxGeometry height="50" width="220" x="380" y="490" as="geometry" />
+        <mxCell id="kNVgp_l-MXVuzM301rVZ-12" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#314354;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#647687;whiteSpace=wrap;" value="&lt;pre dir=&quot;ltr&quot; style=&quot;font-weight: 400; caret-color: rgb(255, 255, 255); color: rgb(255, 255, 255);&quot;&gt;&lt;code&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Estimate Your Car &lt;/font&gt;&lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="198" y="600" as="geometry" />
         </mxCell>
         <mxCell id="kNVgp_l-MXVuzM301rVZ-13" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=none;mainText=" value="&lt;pre dir=&quot;ltr&quot; style=&quot;caret-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;caret-color: rgb(149, 149, 149); font-family: Helvetica; font-size: 16px; white-space: normal;&quot;&gt;&lt;span style=&quot;caret-color: rgb(255, 255, 255); font-size: 17px;&quot;&gt;&lt;b style=&quot;color: light-dark(rgb(255, 255, 255), rgb(122, 122, 122));&quot;&gt;© 2026&lt;/b&gt;&lt;b style=&quot;color: light-dark(rgb(255, 255, 255), rgb(122, 122, 122));&quot;&gt;&lt;font color=&quot;#121212&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(149, 149, 149), rgb(109, 109, 109));&quot;&gt;AutoValue &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Web Development Project&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/pre&gt;" vertex="1">
-          <mxGeometry height="30" width="840" x="70" y="690" as="geometry" />
+          <mxGeometry height="30" width="840" x="70" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="GzgbhYPuzX7FmH5B37bv-2" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#314354;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#647687;whiteSpace=wrap;" value="&lt;pre dir=&quot;ltr&quot; style=&quot;font-weight: 400; caret-color: rgb(255, 255, 255); color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 14px;&quot;&gt;Explore Marketplace&lt;/font&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="650" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="GzgbhYPuzX7FmH5B37bv-3" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#314354;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#647687;whiteSpace=wrap;" value="&lt;pre dir=&quot;ltr&quot; style=&quot;font-weight: 400; caret-color: rgb(255, 255, 255); color: rgb(255, 255, 255);&quot;&gt;&lt;pre dir=&quot;ltr&quot; style=&quot;caret-color: rgb(255, 255, 255); color: rgb(255, 255, 255);&quot;&gt;&lt;code&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Market Insights&lt;/font&gt;&lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="214.01" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="GzgbhYPuzX7FmH5B37bv-4" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="200" width="310" x="560" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="GzgbhYPuzX7FmH5B37bv-11" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="200" width="310" x="560.01" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="GzgbhYPuzX7FmH5B37bv-17" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;fontSize=12;startSize=8;endSize=8;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="504.9999999999998" as="sourcePoint" />
+            <mxPoint x="400" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzgbhYPuzX7FmH5B37bv-19" parent="1" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" value="&lt;span style=&quot;font-size: medium;&quot;&gt;Fast estimation of market value of your vehicle using its characteristics and our Machine Learning model.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="257.5" x="136.25" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="GzgbhYPuzX7FmH5B37bv-20" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=none;mainText=" value="&lt;pre dir=&quot;ltr&quot; style=&quot;caret-color: rgb(255, 255, 255);&quot;&gt;&lt;code style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;ESTIMATE YOUR CAR&lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="30" width="205" x="160.5" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="GzgbhYPuzX7FmH5B37bv-21" parent="1" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" value="&lt;span style=&quot;font-size: medium;&quot;&gt;Discover vehicles listed by other users and compare their asking price with AutoValue&#39;s estimate.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="241.75" x="594.13" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="GzgbhYPuzX7FmH5B37bv-23" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=none;mainText=" value="&lt;pre dir=&quot;ltr&quot; style=&quot;caret-color: rgb(255, 255, 255);&quot;&gt;&lt;code style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;EXPLORE THE MARKET&lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="30" width="205" x="612.5" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="GzgbhYPuzX7FmH5B37bv-24" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=none;mainText=" value="&lt;pre dir=&quot;ltr&quot; style=&quot;caret-color: rgb(255, 255, 255);&quot;&gt;&lt;code style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;UNDERSTAND CAR VALUE&lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="30" width="205" x="162.5" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="GzgbhYPuzX7FmH5B37bv-26" parent="1" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" value="&lt;span style=&quot;font-size: medium;&quot;&gt;Explore how mileage relates to the estimated market value of different vehicles.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="300" x="130" y="995" as="geometry" />
+        </mxCell>
+        <mxCell id="GzgbhYPuzX7FmH5B37bv-27" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="200" width="310" x="110" y="710" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="Estimate - Desktop" id="08j3KAeDOxINGiDrYCzm">
-    <mxGraphModel dx="1007" dy="1117" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="920" dy="1325" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="PYgwOLCVMr-0tVsw5K8U-0" />
         <mxCell id="PYgwOLCVMr-0tVsw5K8U-1" parent="PYgwOLCVMr-0tVsw5K8U-0" />
         <mxCell id="PYgwOLCVMr-0tVsw5K8U-2" parent="PYgwOLCVMr-0tVsw5K8U-1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.window;align=left;verticalAlign=top;spacingLeft=8;strokeColor2=#008cff;strokeColor3=#c4c4c4;fontColor=#666666;mainText=;fontSize=17;labelBackgroundColor=none;whiteSpace=wrap;" value="&lt;span style=&quot;caret-color: rgb(255, 255, 255); font-size: medium; color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;Estimate - Desktop&lt;/span&gt;" vertex="1">
           <mxGeometry height="625" width="880" x="50" y="110" as="geometry" />
         </mxCell>
-        <mxCell id="PYgwOLCVMr-0tVsw5K8U-3" parent="PYgwOLCVMr-0tVsw5K8U-1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=none;mainText=" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;AutoValue &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Home &amp;nbsp; &amp;nbsp; Estimate &amp;nbsp; &amp;nbsp; Market Insights &amp;nbsp; &amp;nbsp; Feature Importance &amp;nbsp; &amp;nbsp; About&lt;/font&gt;" vertex="1">
+        <mxCell id="PYgwOLCVMr-0tVsw5K8U-3" parent="PYgwOLCVMr-0tVsw5K8U-1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=none;mainText=" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;AutoValue &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Home &amp;nbsp; &amp;nbsp; Estimate &amp;nbsp; &amp;nbsp; Marketplace &amp;nbsp; &amp;nbsp; Market Insights &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Login&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="840" x="70" y="160" as="geometry" />
         </mxCell>
         <mxCell id="PYgwOLCVMr-0tVsw5K8U-4" parent="PYgwOLCVMr-0tVsw5K8U-1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=none;mainText=" value="&lt;pre dir=&quot;ltr&quot; style=&quot;caret-color: rgb(255, 255, 255);&quot;&gt;&lt;code style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;ESTIMATE YOUR CAR&lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;" vertex="1">
@@ -94,30 +133,69 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sFOqGmL-d9tQ2S7LMl13" name="Home - Mobile">
-    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="654" dy="1342" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="OMVZvGr36033cFQelbUz-10" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" value="&lt;code style=&quot;font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid; caret-color: rgb(255, 255, 255); color: rgb(255, 255, 255);&quot;&gt;☰&lt;/code&gt;" vertex="1">
-          <mxGeometry height="390" width="200" x="83" y="5" as="geometry" />
+          <mxGeometry height="942" width="200" x="83.25" y="-43" as="geometry" />
         </mxCell>
         <mxCell id="OMVZvGr36033cFQelbUz-11" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=none;mainText=" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(125, 125, 125));&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;AutoValue &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/font&gt;&lt;code style=&quot;caret-color: rgb(255, 255, 255);&quot;&gt;☰&lt;/code&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="23" width="174" x="96" y="44" as="geometry" />
         </mxCell>
-        <mxCell id="OMVZvGr36033cFQelbUz-12" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=none;mainText=" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px; color: light-dark(rgb(128, 128, 128), rgb(255, 255, 255));&quot;&gt;KNOW WHAT YOUR &amp;nbsp; &amp;nbsp;CAR IS WORTH&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="121" x="122.5" y="123" as="geometry" />
-        </mxCell>
-        <mxCell id="7qL3F2Hw36_TzJuD-tzF-1" parent="1" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=center;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Estimate the market value of your used car using Machine Learning.&lt;/font&gt;" vertex="1">
-          <mxGeometry height="52" width="101" x="132.5" y="179" as="geometry" />
-        </mxCell>
         <mxCell id="vOpGtjAj31VgStZPpLev-1" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#314354;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#647687;whiteSpace=wrap;" value="&lt;pre dir=&quot;ltr&quot; style=&quot;font-weight: 400; caret-color: rgb(255, 255, 255); color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/pre&gt;" vertex="1">
-          <mxGeometry height="20" width="84.5" x="140.75" y="277" as="geometry" />
+          <mxGeometry height="20" width="84.5" x="140.75" y="276" as="geometry" />
         </mxCell>
-        <mxCell id="vOpGtjAj31VgStZPpLev-2" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=light-dark(#666666,#050505);align=left;fontSize=8;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=none;mainText=;fillColor=none;" value="Estimate your car&amp;nbsp;&lt;span style=&quot;caret-color: rgb(255, 255, 255); color: rgb(255, 255, 255);&quot;&gt;→&lt;/span&gt;&amp;nbsp;" vertex="1">
-          <mxGeometry height="30" width="87.5" x="143" y="272" as="geometry" />
+        <mxCell id="vOpGtjAj31VgStZPpLev-2" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=light-dark(#666666,#050505);align=left;fontSize=8;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=none;mainText=;fillColor=none;" value="Estimate your car&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="73.5" x="145" y="273" as="geometry" />
         </mxCell>
         <mxCell id="yxc1iK1rxtw9iVtVpjge-1" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=none;mainText=" value="&lt;pre dir=&quot;ltr&quot; style=&quot;caret-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;caret-color: rgb(149, 149, 149); font-family: Helvetica; white-space: normal;&quot;&gt;&lt;font style=&quot;font-size: 7px; line-height: 40%;&quot;&gt;&lt;span style=&quot;caret-color: rgb(255, 255, 255);&quot;&gt;&lt;b style=&quot;color: light-dark(rgb(255, 255, 255), rgb(122, 122, 122));&quot;&gt;© 2026&lt;/b&gt;&lt;b style=&quot;color: light-dark(rgb(255, 255, 255), rgb(122, 122, 122));&quot;&gt;&lt;font color=&quot;#121212&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(149, 149, 149), rgb(109, 109, 109));&quot;&gt;AutoValue &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(109, 109, 109); font-size: 7px; caret-color: rgb(109, 109, 109); font-family: Helvetica; white-space: normal;&quot;&gt;&amp;nbsp; &amp;nbsp; Web Development Project&lt;/span&gt;&lt;/pre&gt;" vertex="1">
-          <mxGeometry height="2" width="171.5" x="101" y="349" as="geometry" />
+          <mxGeometry height="2" width="171.5" x="99.63" y="803" as="geometry" />
+        </mxCell>
+        <mxCell id="JbYj3P_VjZwjt-UjnGmB-1" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=none;mainText=" value="&lt;pre dir=&quot;ltr&quot; style=&quot;caret-color: rgb(255, 255, 255);&quot;&gt;&lt;code style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;DISCOVER AUTOVALUE&lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="30" width="148" x="109" y="77" as="geometry" />
+        </mxCell>
+        <mxCell id="rLl6zbXUOephdpAV6BA_-1" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=left;html=1;shape=mxgraph.mockup.text.textBox;fontColor=light-dark(#FFFFFF,#FFFFFF);align=left;fontSize=8;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=none;mainText=" value="Estimate your vehicle&#39;s market value, explore cars listed by other users and discover insights about vehicle prices" vertex="1">
+          <mxGeometry height="39" width="143.25" x="111.63" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="j6NFo_YCTBJ3nCViLK1H-1" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=10;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=none;mainText=" value="&lt;pre dir=&quot;ltr&quot; style=&quot;caret-color: rgb(255, 255, 255);&quot;&gt;&lt;code style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;ESTIMATE YOUR CAR&lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="8" width="111.25" x="127.38" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ePRtYBSzM_XFSBvNHywJ-1" parent="1" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=9;fontFamily=Helvetica;fillColor=none;strokeColor=none;" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Fast estimation of market value of your vehicle using its characteristics and our Machine Learning model.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="39" width="129.5" x="120.63" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="ePRtYBSzM_XFSBvNHywJ-6" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=10;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=none;mainText=" value="&lt;pre dir=&quot;ltr&quot; style=&quot;caret-color: rgb(255, 255, 255);&quot;&gt;&lt;code style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;EXPLORE THE MARKET&lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="8" width="111.25" x="121.99999999999999" y="413" as="geometry" />
+        </mxCell>
+        <mxCell id="ePRtYBSzM_XFSBvNHywJ-9" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=10;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=none;mainText=" value="&lt;pre dir=&quot;ltr&quot; style=&quot;caret-color: rgb(255, 255, 255);&quot;&gt;&lt;code style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;UNDERSTAND CAR VALUE&lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="8" width="111.25" x="116.38000000000001" y="624" as="geometry" />
+        </mxCell>
+        <mxCell id="ePRtYBSzM_XFSBvNHywJ-10" parent="1" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=9;fontFamily=Helvetica;fillColor=none;strokeColor=none;" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Explore how mileage relates to the estimated market value of different vehicles.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="39" width="129.5" x="120.63" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="ePRtYBSzM_XFSBvNHywJ-15" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#314354;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#647687;whiteSpace=wrap;" value="&lt;pre dir=&quot;ltr&quot; style=&quot;font-weight: 400; caret-color: rgb(255, 255, 255); color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="20" width="84.5" x="138.88" y="684" as="geometry" />
+        </mxCell>
+        <mxCell id="PCPe37-zm3vWUftAahPI-1" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="67" width="148" x="109" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="mHiitKyL_aEElBV91_Ah-1" parent="1" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Discover vehicles listed by other users and compare their asking price with AutoValue&#39;s estimate.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="139" x="115.88" y="427" as="geometry" />
+        </mxCell>
+        <mxCell id="mHiitKyL_aEElBV91_Ah-2" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#314354;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#647687;whiteSpace=wrap;" value="&lt;pre dir=&quot;ltr&quot; style=&quot;font-weight: 400; caret-color: rgb(255, 255, 255); color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="20" width="84.5" x="143.13" y="486" as="geometry" />
+        </mxCell>
+        <mxCell id="mHiitKyL_aEElBV91_Ah-4" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=light-dark(#666666,#050505);align=left;fontSize=8;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=none;mainText=;fillColor=none;" value="Explore Marketplace" vertex="1">
+          <mxGeometry height="30" width="84.5" x="143.13" y="481" as="geometry" />
+        </mxCell>
+        <mxCell id="mHiitKyL_aEElBV91_Ah-5" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=light-dark(#666666,#050505);align=left;fontSize=8;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=none;mainText=;fillColor=none;" value="Market insights" vertex="1">
+          <mxGeometry height="30" width="63.5" x="149.38" y="679" as="geometry" />
+        </mxCell>
+        <mxCell id="mHiitKyL_aEElBV91_Ah-6" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="67" width="148" x="109.25999999999999" y="526" as="geometry" />
+        </mxCell>
+        <mxCell id="mHiitKyL_aEElBV91_Ah-7" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="67" width="148" x="109.26" y="722" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
