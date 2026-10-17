@@ -1,0 +1,201 @@
+/* MARKET INSIGHTS PAGE */
+
+.market-insights {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 60px 20px 80px;
+
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.35)),
+    url("../images/b-7.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.market-insights h1 {
+  color: rgb(254, 254, 254);
+  font-size: 36px;
+  margin: 0 0 15px;
+  text-align: center;
+}
+
+.market-insights > p {
+  color: rgb(249, 247, 247);
+  line-height: 1.6;
+  text-align: center;
+  margin: 0 0 45px;
+}
+
+/* PRICE VS MILEAGE SECTION */
+
+.price-mileage {
+  width: 100%;
+  max-width: 800px;
+  padding: 35px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: rgba(32, 36, 42, 0.78);
+  border: 1px solid #343941;
+  border-radius: 12px;
+}
+
+.price-mileage h2 {
+  color: white;
+  font-size: 22px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 0 0 25px;
+}
+
+/* FORM */
+
+#insights-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 25px 30px;
+
+  width: 100%;
+  max-width: 700px;
+
+  box-sizing: border-box;
+}
+
+#insights-form .form-group label {
+  display: block;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+#insights-form .form-group input,
+#insights-form .form-group select {
+  width: 100%;
+  height: 44px;
+  padding: 10px 12px;
+
+  box-sizing: border-box;
+
+  background-color: #15191e;
+  color: white;
+  color-scheme: dark;
+
+  border: 1px solid #454a52;
+  border-radius: 6px;
+
+  font-size: 15px;
+}
+
+#insights-form .form-group input:focus,
+#insights-form .form-group select:focus {
+  outline: none;
+  border-color: #c69a45;
+}
+
+/* GENERATE CHART BUTTON */
+
+.insights-generate-button {
+  grid-column: 1 / -1;
+  justify-self: center;
+
+  width: 220px;
+  padding: 14px 20px;
+  margin-top: 15px;
+
+  color: #14171b;
+  background-color: #907237;
+
+  border: none;
+  border-radius: 6px;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.insights-generate-button:hover {
+  background-color: #ffc053;
+}
+
+/* CHART */
+
+.chart-container {
+  display: none;
+
+  width: 100%;
+  max-width: 900px;
+  margin-top: 35px;
+  padding: 35px;
+
+  box-sizing: border-box;
+
+  background-color: rgba(32, 36, 42, 0.88);
+  border: 1px solid #343941;
+  border-radius: 12px;
+
+  min-height: 400px;
+}
+
+.chart-container canvas {
+  width: 100% !important;
+  height: 350px !important;
+}
+
+/* HIDE NUMBER INPUT ARROWS */
+
+#insights-form input[type="number"]::-webkit-inner-spin-button,
+#insights-form input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#insights-form input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  .market-insights {
+    padding: 45px 15px 60px;
+  }
+
+  .market-insights h1 {
+    font-size: 28px;
+  }
+
+  .price-mileage {
+    padding: 25px 20px;
+  }
+
+  #insights-form {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .insights-generate-button {
+    grid-column: auto;
+    width: 100%;
+  }
+
+  .chart-container {
+    padding: 20px 15px;
+    min-height: 300px;
+  }
+
+  .chart-container canvas {
+    height: 280px !important;
+  }
+}

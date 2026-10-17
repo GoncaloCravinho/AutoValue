@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Market Insights | AutoValue</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/market-insights.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" alt="AutoValue" />
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="navlinks"
+        >
+          ☰
+        </button>
+
+        <div class="navlinks" id="navlinks">
+          <a href="index.html">Home</a>
+          <a href="estimate.html">Estimate</a>
+          <a href="marketplace.html">Marketplace</a>
+          <a href="market-insights.html" class="active">Market Insights</a>
+          <a href="login.html">Login</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="market-insights">
+        <h1>MARKET INSIGHTS</h1>
+
+        <p>Explore how your car's estimated value changes with mileage.</p>
+
+        <section class="price-mileage">
+          <h2>PRICE VS MILEAGE</h2>
+
+          <form id="insights-form">
+            <!-- Brand -->
+            <div class="form-group">
+              <label for="brand">Brand</label>
+
+              <select id="brand" name="brand" required>
+                <option value="" disabled selected>Select a brand</option>
+              </select>
+            </div>
+
+            <!-- Model -->
+            <div class="form-group">
+              <label for="model">Model</label>
+
+              <select id="model" name="model" disabled required>
+                <option value="" disabled selected>Select a brand first</option>
+              </select>
+            </div>
+
+            <!-- Year -->
+            <div class="form-group">
+              <label for="year">Year</label>
+
+              <input
+                type="number"
+                id="year"
+                name="year"
+                min="1967"
+                max="2026"
+                required
+              />
+            </div>
+
+            <!-- Fuel -->
+            <div class="form-group">
+              <label for="fuel">Fuel</label>
+
+              <select id="fuel" name="fuel" required>
+                <option value="" disabled selected>
+                  Select a type of Fuel
+                </option>
+                <option value="Gasoline">Gasoline</option>
+                <option value="Diesel">Diesel</option>
+                <option value="Hybrid">Hybrid</option>
+                <option value="Electric">Electric</option>
+              </select>
+            </div>
+
+            <!-- Transmission -->
+            <div class="form-group">
+              <label for="transmission">Transmission</label>
+
+              <select id="transmission" name="transmission" required>
+                <option value="" disabled selected>
+                  Select a type of Transmission
+                </option>
+                <option value="Manual">Manual</option>
+                <option value="Automatic">Automatic</option>
+              </select>
+            </div>
+
+            <!-- Power -->
+            <div class="form-group">
+              <label for="power">Power (hp)</label>
+
+              <input
+                type="number"
+                id="power"
+                name="power"
+                min="5"
+                max="1000"
+                required
+              />
+            </div>
+
+            <button type="submit" class="insights-generate-button">
+              Generate Chart
+            </button>
+          </form>
+
+          <div class="chart-container">
+            <canvas id="mileage-chart"></canvas>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <p>AutoValue - Web Development Project - 2026</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="javascript/market-insights.js"></script>
+  </body>
+</html>
