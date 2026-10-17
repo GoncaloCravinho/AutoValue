@@ -125,7 +125,7 @@
 
   box-sizing: border-box;
 
-  background-color: #20242a;
+  background-color: rgba(32, 36, 42, 0.78);
   border: 1px solid #343941;
   border-radius: 12px;
 
@@ -164,8 +164,7 @@
   gap: 15px;
 }
 
-#new-estimate,
-.insights-button {
+.results-actions button {
   flex: 1;
   max-width: 220px;
   padding: 12px 15px;
@@ -190,8 +189,7 @@
   transition: background-color 0.3s;
 }
 
-#new-estimate:hover,
-.insights-button:hover {
+.results-actions button:hover {
   background-color: #454a52;
 }
 
@@ -244,8 +242,7 @@ input[type="number"] {
     align-items: stretch;
   }
 
-  #new-estimate,
-  .insights-button {
+  .results-actions button {
     max-width: none;
   }
 }
