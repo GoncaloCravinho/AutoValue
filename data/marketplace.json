@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "brand": "BMW",
+    "model": "3 Series",
+    "year": 2020,
+    "mileage": 75000,
+    "fuel": "Diesel",
+    "transmission": "Automatic",
+    "price": 24850,
+    "images": [
+      "images/marketplace/bmw/01.png",
+      "images/marketplace/bmw/02.png",
+      "images/marketplace/bmw/03.png",
+      "images/marketplace/bmw/04.png",
+      "images/marketplace/bmw/05.png",
+      "images/marketplace/bmw/06.png"
+    ]
+  },
+  {
+    "id": 2,
+    "brand": "Audi",
+    "model": "A5 Sportback",
+    "year": 2021,
+    "mileage": 48000,
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "price": 32900,
+    "images": [
+      "images/marketplace/audi/01.png",
+      "images/marketplace/audi/02.png",
+      "images/marketplace/audi/03.png",
+      "images/marketplace/audi/04.png",
+      "images/marketplace/audi/05.png",
+      "images/marketplace/audi/06.png"
+    ]
+  },
+  {
+    "id": 3,
+    "brand": "Mercedes-Benz",
+    "model": "C-Class",
+    "year": 2022,
+    "mileage": 39000,
+    "fuel": "Diesel",
+    "transmission": "Automatic",
+    "price": 39500,
+    "images": [
+      "images/marketplace/mercedes/01.png",
+      "images/marketplace/mercedes/02.png",
+      "images/marketplace/mercedes/03.png",
+      "images/marketplace/mercedes/04.png",
+      "images/marketplace/mercedes/05.png",
+      "images/marketplace/mercedes/06.png"
+    ]
+  },
+  {
+    "id": 4,
+    "brand": "Porsche",
+    "model": "911 Carrera",
+    "year": 2021,
+    "mileage": 22000,
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "price": 109900,
+    "images": [
+      "images/marketplace/porsche/01.png",
+      "images/marketplace/porsche/02.png",
+      "images/marketplace/porsche/03.png",
+      "images/marketplace/porsche/04.png",
+      "images/marketplace/porsche/05.png",
+      "images/marketplace/porsche/06.png"
+    ]
+  },
+  {
+    "id": 5,
+    "brand": "Volkswagen",
+    "model": "Golf",
+    "year": 2020,
+    "mileage": 82000,
+    "fuel": "Diesel",
+    "transmission": "Automatic",
+    "price": 21750,
+    "images": [
+      "images/marketplace/volkswagen/01.png",
+      "images/marketplace/volkswagen/02.png",
+      "images/marketplace/volkswagen/03.png",
+      "images/marketplace/volkswagen/04.png",
+      "images/marketplace/volkswagen/05.png",
+      "images/marketplace/volkswagen/06.png"
+    ]
+  },
+  {
+    "id": 6,
+    "brand": "Tesla",
+    "model": "Model 3",
+    "year": 2022,
+    "mileage": 35000,
+    "fuel": "Electric",
+    "transmission": "Automatic",
+    "price": 28900,
+    "images": [
+      "images/marketplace/tesla/01.png",
+      "images/marketplace/tesla/02.png",
+      "images/marketplace/tesla/03.png",
+      "images/marketplace/tesla/04.png",
+      "images/marketplace/tesla/05.png",
+      "images/marketplace/tesla/06.png"
+    ]
+  },
+  {
+    "id": 7,
+    "brand": "Ford",
+    "model": "Fiesta ST",
+    "year": 2021,
+    "mileage": 42000,
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "price": 21900,
+    "images": [
+      "images/marketplace/ford/01.png",
+      "images/marketplace/ford/02.png",
+      "images/marketplace/ford/03.png",
+      "images/marketplace/ford/04.png",
+      "images/marketplace/ford/05.png",
+      "images/marketplace/ford/06.png"
+    ]
+  },
+  {
+    "id": 8,
+    "brand": "Fiat",
+    "model": "Punto",
+    "year": 2017,
+    "mileage": 98000,
+    "fuel": "Petrol",
+    "transmission": "Manual",
+    "price": 7950,
+    "images": [
+      "images/marketplace/fiat/01.png",
+      "images/marketplace/fiat/02.png",
+      "images/marketplace/fiat/03.png",
+      "images/marketplace/fiat/04.png",
+      "images/marketplace/fiat/05.png",
+      "images/marketplace/fiat/06.png"
+    ]
+  }
+]
