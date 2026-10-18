@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Login | AutoValue</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" alt="AutoValue" />
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="navlinks"
+        >
+          ☰
+        </button>
+
+        <div class="navlinks" id="navlinks">
+          <a href="index.html">Home</a>
+          <a href="estimate.html">Estimate</a>
+          <a href="marketplace.html">Marketplace</a>
+          <a href="market-insights.html">Market Insights</a>
+          <a href="login.html" class="active" id="auth-nav-link">Login</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="login-page">
+      <section class="login-container">
+        <div class="login-header">
+          <h1>Welcome Back</h1>
+          <p>Sign in to your AutoValue account.</p>
+        </div>
+
+        <form id="login-form">
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              autocomplete="email"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter your password"
+              autocomplete="current-password"
+              required
+            />
+          </div>
+
+          <div class="password-options">
+            <label class="show-password">
+              <input type="checkbox" id="show-password" />
+              Show password
+            </label>
+          </div>
+
+          <p
+            id="login-message"
+            class="login-message"
+            role="status"
+            aria-live="polite"
+          ></p>
+
+          <button type="submit" class="login-button">Sign In</button>
+        </form>
+
+        <div class="login-footer">
+          <p>
+            Don't have an account?
+            <a href="register.html">Create Account</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>AutoValue - Web Development Project - 2026</p>
+    </footer>
+
+    <script src="javascript/navbar.js"></script>
+    <script src="javascript/login.js"></script>
+  </body>
+</html>
