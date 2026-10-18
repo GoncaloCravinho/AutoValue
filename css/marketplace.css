@@ -161,6 +161,8 @@
 
 /* VIEW DETAILS LINK */
 
+/* VIEW DETAILS LINK */
+
 .car-link {
   display: inline-flex;
   align-items: center;
@@ -168,6 +170,7 @@
   align-self: flex-start;
 
   margin-top: auto;
+  padding-top: 10px;
 
   color: #20242a;
   font-size: 15px;
