@@ -1,0 +1,362 @@
+/* PROFILE PAGE */
+
+.profile-page {
+  background-color: #f5f5f5;
+  flex: 1;
+}
+
+/* PROFILE CONTAINER */
+
+.profile-container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 0 80px;
+  box-sizing: border-box;
+}
+
+/* PROFILE HEADER */
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 35px;
+}
+
+.profile-header h1 {
+  color: #20242a;
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0 0 12px;
+}
+
+.profile-header p {
+  color: #777;
+  font-size: 16px;
+  margin: 0;
+}
+
+/* LOGOUT BUTTON */
+
+#logout-button {
+  padding: 12px 24px;
+
+  background-color: transparent;
+  color: #20242a;
+
+  border: 1px solid #20242a;
+  border-radius: 5px;
+
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#logout-button:hover {
+  background-color: #20242a;
+  color: #ffffff;
+}
+
+/* PROFILE SECTIONS */
+
+.profile-section {
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+
+  padding: 35px 40px;
+  margin-bottom: 25px;
+}
+
+/* SECTION HEADERS */
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+
+  margin-bottom: 30px;
+}
+
+.section-header h2 {
+  color: #20242a;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.section-header p {
+  color: #777;
+  font-size: 14px;
+  margin: 10px 0 0;
+}
+
+/* ACCOUNT INFORMATION */
+
+.account-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 30px;
+}
+
+.account-field {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.account-field label,
+.account-field span {
+  color: #777;
+  font-size: 14px;
+}
+
+.account-field input {
+  width: 100%;
+  padding: 12px 14px;
+
+  background-color: #ffffff;
+  color: #20242a;
+
+  border: 1px solid #d5d5d5;
+  border-radius: 5px;
+
+  font-family: inherit;
+  font-size: 15px;
+
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.account-field input:focus {
+  outline: none;
+  border-color: #20242a;
+}
+
+.account-field input:disabled {
+  background-color: #f5f5f5;
+  color: #555;
+  cursor: default;
+}
+
+.account-field p {
+  color: #20242a;
+  font-size: 15px;
+  margin: 12px 0 0;
+}
+
+/* PROFILE MESSAGES */
+
+.profile-message {
+  color: #b42318;
+  font-size: 13px;
+  margin: 20px 0 0;
+}
+
+.profile-message:empty {
+  display: none;
+}
+
+/* PROFILE ACTIONS */
+
+.profile-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+#edit-actions {
+  display: flex;
+  gap: 12px;
+}
+
+#edit-actions[hidden] {
+  display: none;
+}
+
+/* EDIT PROFILE BUTTON */
+
+#edit-profile {
+  padding: 12px 24px;
+
+  background-color: #20242a;
+  color: #ffffff;
+
+  border: none;
+  border-radius: 5px;
+
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#edit-profile[hidden] {
+  display: none;
+}
+
+#edit-profile:hover {
+  background-color: #383e46;
+}
+
+/* CANCEL BUTTON */
+
+#cancel-edit {
+  padding: 12px 24px;
+
+  background-color: transparent;
+  color: #20242a;
+
+  border: 1px solid #d5d5d5;
+  border-radius: 5px;
+
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#cancel-edit:hover {
+  background-color: #f0f0f0;
+}
+
+/* SAVE CHANGES BUTTON */
+
+#save-profile {
+  padding: 12px 24px;
+
+  background-color: #20242a;
+  color: #ffffff;
+
+  border: none;
+  border-radius: 5px;
+
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#save-profile:hover {
+  background-color: #383e46;
+}
+
+/* SECTION LINKS */
+
+.section-link {
+  color: #20242a;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+
+  transition: color 0.3s;
+}
+
+.section-link:hover {
+  color: #c69a45;
+}
+
+/* MY LISTINGS AND MY ESTIMATES */
+
+.profile-listings,
+.profile-estimates {
+  border-top: 1px solid #e5e5e5;
+  padding-top: 30px;
+}
+
+/* EMPTY STATE */
+
+.empty-message {
+  color: #888;
+  font-size: 15px;
+  text-align: center;
+
+  padding: 35px 15px;
+  margin: 0;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 768px) {
+  .profile-container {
+    width: 92%;
+    padding: 35px 0 60px;
+  }
+
+  .profile-header h1 {
+    font-size: 30px;
+  }
+
+  .profile-section {
+    padding: 30px 25px;
+  }
+
+  .section-header h2 {
+    font-size: 21px;
+  }
+
+  .account-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-header {
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .profile-header h1 {
+    font-size: 26px;
+  }
+
+  .profile-header p {
+    font-size: 14px;
+  }
+
+  #logout-button {
+    padding: 10px 15px;
+  }
+
+  .profile-section {
+    padding: 25px 20px;
+  }
+
+  .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .account-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .profile-actions {
+    justify-content: stretch;
+  }
+
+  #edit-profile,
+  #edit-actions {
+    width: 100%;
+  }
+
+  #edit-actions button {
+    flex: 1;
+  }
+}

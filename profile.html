@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>My Profile | AutoValue</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" alt="AutoValue" />
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="navlinks"
+        >
+          ☰
+        </button>
+
+        <div class="navlinks" id="navlinks">
+          <a href="index.html">Home</a>
+          <a href="estimate.html">Estimate</a>
+          <a href="marketplace.html">Marketplace</a>
+          <a href="market-insights.html">Market Insights</a>
+          <a href="profile.html" class="active" id="auth-nav-link"> Profile </a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="profile-page">
+      <div class="profile-container">
+        <!-- PROFILE HEADER -->
+
+        <section class="profile-header">
+          <div>
+            <h1>My Profile</h1>
+            <p>Manage your account, listings and estimates.</p>
+          </div>
+
+          <button type="button" id="logout-button">Logout</button>
+        </section>
+
+        <section class="profile-section">
+          <div class="section-header">
+            <h2>Account Information</h2>
+          </div>
+
+          <form id="profile-form">
+            <div class="account-grid">
+              <div class="account-field">
+                <label for="profile-name">Full Name</label>
+                <input
+                  type="text"
+                  id="profile-name"
+                  name="name"
+                  autocomplete="name"
+                  minlength="2"
+                  maxlength="100"
+                  required
+                  disabled
+                />
+              </div>
+
+              <div class="account-field">
+                <label for="profile-email">Email Address</label>
+                <input
+                  type="email"
+                  id="profile-email"
+                  name="email"
+                  autocomplete="email"
+                  required
+                  disabled
+                />
+              </div>
+
+              <div class="account-field">
+                <span>Member Since</span>
+                <p id="profile-created">—</p>
+              </div>
+            </div>
+
+            <p
+              id="profile-message"
+              class="profile-message"
+              role="status"
+              aria-live="polite"
+            ></p>
+
+            <div class="profile-actions">
+              <button type="button" id="edit-profile">Edit Profile</button>
+
+              <div id="edit-actions" hidden>
+                <button type="button" id="cancel-edit">Cancel</button>
+
+                <button type="submit" id="save-profile">Save Changes</button>
+              </div>
+            </div>
+          </form>
+        </section>
+
+        <section class="profile-section">
+          <div class="section-header">
+            <div>
+              <h2>My Listings</h2>
+              <p>Manage the vehicles you have listed for sale.</p>
+            </div>
+
+            <a href="marketplace.html" class="section-link">
+              View Marketplace →
+            </a>
+          </div>
+
+          <div id="profile-listings" class="profile-listings">
+            <p class="empty-message">You haven't listed any vehicles yet.</p>
+          </div>
+        </section>
+
+        <section class="profile-section">
+          <div class="section-header">
+            <div>
+              <h2>My Estimates</h2>
+              <p>Review your previous vehicle price estimates.</p>
+            </div>
+
+            <a href="estimate.html" class="section-link"> New Estimate → </a>
+          </div>
+
+          <div id="profile-estimates" class="profile-estimates">
+            <p class="empty-message">You haven't made any estimates yet.</p>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>AutoValue - Web Development Project - 2026</p>
+    </footer>
+
+    <script src="javascript/navbar.js"></script>
+    <script src="javascript/profile.js"></script>
+  </body>
+</html>
