@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Register | AutoValue</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/register.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" alt="AutoValue" />
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="navlinks"
+        >
+          ☰
+        </button>
+
+        <div class="navlinks" id="navlinks">
+          <a href="index.html">Home</a>
+          <a href="estimate.html">Estimate</a>
+          <a href="marketplace.html">Marketplace</a>
+          <a href="market-insights.html">Market Insights</a>
+          <a href="login.html" class="active" id="auth-nav-link">Login</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="register-page">
+      <section class="register-container">
+        <div class="register-header">
+          <h1>Create Account</h1>
+          <p>Join AutoValue and manage your vehicles.</p>
+        </div>
+
+        <form id="register-form">
+          <div class="form-group">
+            <label for="full-name">Full Name</label>
+            <input
+              type="text"
+              id="full-name"
+              name="full_name"
+              placeholder="Enter your full name"
+              autocomplete="name"
+              minlength="2"
+              maxlength="100"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              autocomplete="email"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Create a password"
+              autocomplete="new-password"
+              minlength="8"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="confirm-password">Confirm Password</label>
+            <input
+              type="password"
+              id="confirm-password"
+              name="confirm_password"
+              placeholder="Confirm your password"
+              autocomplete="new-password"
+              minlength="8"
+              required
+            />
+          </div>
+
+          <div class="password-options">
+            <label class="show-password">
+              <input type="checkbox" id="show-password" />
+              Show passwords
+            </label>
+          </div>
+
+          <p class="password-hint">
+            Password must contain at least 8 characters.
+          </p>
+
+          <p
+            id="register-message"
+            class="register-message"
+            role="status"
+            aria-live="polite"
+          ></p>
+
+          <button type="submit" class="register-button">Create Account</button>
+        </form>
+
+        <div class="register-footer">
+          <p>
+            Already have an account?
+            <a href="login.html">Sign In</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>AutoValue - Web Development Project - 2026</p>
+    </footer>
+
+    <script src="javascript/navbar.js"></script>
+    <script src="javascript/register.js"></script>
+  </body>
+</html>
