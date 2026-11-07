@@ -22,6 +22,7 @@
   font-size: 36px;
   margin: 0 0 15px;
   text-align: center;
+  letter-spacing: 1px;
 }
 
 .market-insights > p {
@@ -111,8 +112,8 @@
   padding: 14px 20px;
   margin-top: 15px;
 
-  color: #14171b;
-  background-color: #907237;
+  color: #343941;
+  background-color: #b6b6b5;
 
   border: none;
   border-radius: 6px;

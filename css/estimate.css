@@ -9,7 +9,7 @@
   padding: 60px 20px 80px;
 
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.55)),
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.55)),
     url("../images/card-1.jpeg");
 
   background-size: cover;
@@ -22,6 +22,7 @@
   font-size: 36px;
   margin: 0 0 15px;
   text-align: center;
+  letter-spacing: 1px;
 }
 
 .estimate > p {
@@ -96,8 +97,8 @@
   padding: 14px 20px;
   margin-top: 15px;
 
-  color: #14171b;
-  background-color: #907237;
+  color: #343941;
+  background-color: #b6b6b5;
 
   border: none;
   border-radius: 6px;
