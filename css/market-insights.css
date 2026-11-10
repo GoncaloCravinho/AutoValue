@@ -170,7 +170,7 @@
 
 @media (max-width: 768px) {
   .market-insights {
-    padding: 45px 15px 60px;
+    padding: 45px 65px 60px;
   }
 
   .market-insights h1 {
@@ -188,7 +188,7 @@
 
   .insights-generate-button {
     grid-column: auto;
-    width: 100%;
+    width: 40%;
   }
 
   .chart-container {

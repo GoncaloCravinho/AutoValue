@@ -211,7 +211,7 @@ input[type="number"] {
 
 @media (max-width: 768px) {
   .estimate {
-    padding: 45px 15px 60px;
+    padding: 45px 65px 60px;
   }
 
   .estimate h1 {
@@ -231,7 +231,7 @@ input[type="number"] {
 
   .estimate-button {
     grid-column: auto;
-    width: 100%;
+    width: 40%;
   }
 
   .result {
