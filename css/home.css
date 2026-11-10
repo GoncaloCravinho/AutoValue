@@ -35,6 +35,10 @@
   letter-spacing: 1px;
 }
 
+.gold-text {
+  color: #7f6201;
+}
+
 .hero-content h2 {
   font-size: 24px;
   margin: 0;

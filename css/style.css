@@ -68,16 +68,16 @@ nav .logo:hover {
 
 .cta {
   text-decoration: none;
-  color: aliceblue;
+  color: #fffefe;
   padding: 15px 20px;
   border: 1px solid #e4e4e4;
-  background-color: #4939365b;
-  transition: background-color 0.3s;
+  background-color: #444444;
   border-radius: 5px;
 }
 
 .cta:hover {
-  background-color: #444444;
+  background-color: #c9c9c9;
+  color: #765a2f;
 }
 
 /* FOOTER */
