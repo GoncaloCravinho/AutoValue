@@ -153,6 +153,15 @@
   height: 350px !important;
 }
 
+.chart-note {
+  margin-top: 20px;
+  color: #b8bbc2;
+  font-size: 13px;
+  font-style: italic;
+  text-align: center;
+  line-height: 1.6;
+}
+
 /* HIDE NUMBER INPUT ARROWS */
 
 #insights-form input[type="number"]::-webkit-inner-spin-button,

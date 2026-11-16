@@ -13,3 +13,16 @@ class CarInput(BaseModel):
 
 class PredictionResponse(BaseModel):
     estimated_price: float
+
+
+class MileageInsightsInput(BaseModel):
+    brand: str = Field(min_length=1)
+    model: str = Field(min_length=1)
+    year: int = Field(ge=1967, le=2026)
+    fuel: Literal["Diesel", "Electric", "Gasoline", "Hybrid"]
+    transmission: Literal["Automatic", "Manual"]
+    power: float = Field(gt=5, le=1050)
+
+class MileageInsightsResponse(BaseModel):
+    mileage: list[int]
+    estimated_prices: list[float]

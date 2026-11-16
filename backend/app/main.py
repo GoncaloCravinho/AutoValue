@@ -1,8 +1,8 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.schemas import CarInput, PredictionResponse
-from app.services.prediction import predict_price
+from app.schemas import CarInput, PredictionResponse, MileageInsightsInput, MileageInsightsResponse
+from app.services.prediction import predict_price, predict_mileage_insights
 
 
 app = FastAPI(
@@ -42,4 +42,24 @@ def predict(car: CarInput):
         raise HTTPException(
             status_code=422,
             deatil=str(error)
+        ) from error
+
+
+@app.post(
+    "/api/insights/mileage",
+    response_model=MileageInsightsResponse
+)
+def mileage_insights(car: MileageInsightsInput):
+
+    try:
+        insights = predict_mileage_insights(
+            car.model_dump()
+        )
+
+        return MileageInsightsResponse(**insights)
+
+    except ValueError as error:
+        raise HTTPException(
+            status_code=422,
+            detail=str(error)
         ) from error
